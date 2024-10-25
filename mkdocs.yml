@@ -27,8 +27,11 @@ plugins:
   - tags
   - search
 markdown_extensions:
-- toc:
-    permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
 nav:
   - index.md
   - Setup:
