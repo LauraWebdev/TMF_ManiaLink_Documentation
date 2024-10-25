@@ -39,7 +39,7 @@ Same as [image](#imagesome-imagejpg), replaces the set image when the mouse hove
 ### `style="CategoryName"`
 The category name of a [predefined style](../general/predefined-styles.md). Both `style` and `substyle` are required, `image` and `imagefocus` will not be available if used.
 
-### `style="StyleName"`
+### `substyle="StyleName"`
 The style name of a [predefined style](../general/predefined-styles.md). Both `style` and `substyle` are required, `image` and `imagefocus` will not be available if used.
 
 ### `bgcolor="RGBA"`

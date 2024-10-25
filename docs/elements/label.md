@@ -70,7 +70,7 @@ The size of the text.
 ### `textcolor="RGBA"`
 A [color](../general/colors.md) used for the text color.
 
-### `size="StyleName"`
+### `style="StyleName"`
 A [predefined style](../general/predefined-styles.md). Only text styles can be used.
 
 ## Examples
