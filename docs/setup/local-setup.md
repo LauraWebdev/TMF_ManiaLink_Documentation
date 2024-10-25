@@ -30,3 +30,5 @@ To run a local server that serves our ManiaLink, run the following command in a 
 
 ## Open your ManiaLink
 To open your ManiaLink, open Trackmania Forever and click on **Explorer**. Enter `http://127.0.0.1:8080/index.xml` on the input row at the top and your ManiaLink will open. You can now change your `index.xml` to make changes. To see these changes, re-enter `http://127.0.0.1:8080/index.xml` in the URL bar at the top.
+
+![ManiaLink Example](./img/manialink_example.png)
