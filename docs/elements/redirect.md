@@ -10,3 +10,7 @@ Allows an automatic redirect to another ressource.
 ```xml
 <redirect>OtherManiaLink</redirect>
 ```
+
+```xml
+<redirect>./page-02.xml</redirect>
+```
