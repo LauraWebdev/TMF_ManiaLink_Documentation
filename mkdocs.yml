@@ -1,0 +1,57 @@
+site_name: TMF ManiaLink Documentation
+site_description: An extensive hub of knowledge for the ManiaLink structure of Nadeo's videogame Trackmania United Forever and Trackmania Nations Forever.
+repo_url: https://github.com/LauraWebdev/TMF_ManiaLink_Documentation
+edit_uri: blob/dev/docs/
+not_in_nav: |
+  /credits.md
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  font:
+    text: Outfit
+    code: Roboto Mono
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: deep purple
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.sections
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
+plugins:
+  - tags
+  - search
+markdown_extensions:
+- toc:
+    permalink: true
+nav:
+  - index.md
+  - Setup:
+    - setup/local-setup.md
+    - setup/server-setup.md
+    - setup/link-setup.md
+  - General:
+    - general/structure.md
+    - general/positioning.md
+    - general/colors.md
+    - general/text-formatting.md
+    - general/known-issues.md
+  - Elements:
+    - elements/manialink.md
+    - elements/quad.md
+    - elements/frame.md
+    - elements/label.md
+    - elements/format.md
+    - elements/audio.md
+    - elements/music.md
+    - elements/video.md
+    - elements/entry.md
+    - elements/fileentry.md
+    - elements/include.md
+    - elements/redirect.md
+    - elements/timeout.md
