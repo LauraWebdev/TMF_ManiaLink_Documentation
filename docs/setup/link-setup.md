@@ -4,7 +4,7 @@ You've created a ManiaLink and now you want to share it with other players, but 
 If your answer is yes to either of these questions, you need to register your ManiaLink on the [Trackmania Player Page](https://players.trackmaniaforever.com/).
 
 !!! note
-    Use the credentials you use to log into the game on the player page. Access is only available to Trackmania United Forever accounts.
+    Use the credentials you use to log into the game on the player page. Access to both the player page and named ManiaLinks is only available to Trackmania United Forever accounts. Trackmania Nations Forever users can still access ManiaLinks through the [direct link](./server-setup.md).
 
 ## Check your ManiaLink
 First, check that your ManiaLink is working propperly. You will need to host your ManiaLink somewhere, more details are available on the [Server Setup](server-setup.md) page.
