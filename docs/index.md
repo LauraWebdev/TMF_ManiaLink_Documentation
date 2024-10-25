@@ -10,3 +10,26 @@ A ManiaLink is a feature present in Nadeo's videogame **Trackmania United Foreve
 
 ## What is a ManiaCode?
 A ManiaCode enables players to access tracks, skins and replays. Developers can optionally request **Coppers**, the games in-game earned currency to access these ressources.
+
+## Examples
+Sadly, after more than 15 years, a lot of the TrackMania Forever ManiaLinks have been inaccessible or shutdown. During the lifespan of the game, there has also been at least one instance where all records of existing [named ManiaLinks](./setup/link-setup.md) have been wiped. That being said, there are still some ManiaLinks available.
+
+| ManiaLink | Description |
+| --------- | ----------- |
+| `example` | Reference for ingame stylings |
+| `maniaspace` | ManiaSpace |
+| `manialoto` | ManiaLoto |
+| `maniapub` | ManiaPub |
+| `maniad` | ManiaDesigner |
+| `mle` | ManiaLink Editor |
+| `hdproj` | HDProject |
+| `sabaku` | sabaku_no_prod |
+| `adom` | Adom's ManiaLink |
+| `kripke` | Kripke's Manialink |
+| `tutur` | Tutur |
+| `kss` | Kss |
+| `tyzz` | tyzz |
+| `dvd` | MrDVD |
+| `XCSGicle` | XGicles |
+| `eXtreme34` | Toyeca's Manialink |
+| `laura` | Laura Sofia's ManiaLink |
