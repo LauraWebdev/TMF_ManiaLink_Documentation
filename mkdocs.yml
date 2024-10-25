@@ -6,7 +6,6 @@ not_in_nav: |
   /credits.md
 theme:
   name: material
-  custom_dir: overrides
   language: en
   font:
     text: Outfit
