@@ -9,3 +9,4 @@ TMF ManiaLink Documentation would have not been possible without the videos, art
     - pafSmurf
 - tm-wiki.org
 - tmup-links.org
+- wiki.xaseco.org
