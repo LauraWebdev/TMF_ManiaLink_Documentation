@@ -1,0 +1,1651 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An extensive hub of knowledge for the ManiaLink structure of Nadeo's videogame Trackmania United Forever and Trackmania Nations Forever.">
+      
+      
+      
+      
+        <link rel="prev" href="../multi-language/">
+      
+      
+        <link rel="next" href="../known-issues/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>ManiaCodes - TMF ManiaLink Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Outfit";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#maniacodes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="TMF ManiaLink Documentation" class="md-header__button md-logo" aria-label="TMF ManiaLink Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TMF ManiaLink Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ManiaCodes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/LauraWebdev/TMF_ManiaLink_Documentation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="TMF ManiaLink Documentation" class="md-nav__button md-logo" aria-label="TMF ManiaLink Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    TMF ManiaLink Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/LauraWebdev/TMF_ManiaLink_Documentation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Setup
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Setup
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/local-setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Local Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/server-setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Server Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/link-setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Link Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    General
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            General
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../structure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Structure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../positioning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Positioning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../colors/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Colors
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../text-formatting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Text formatting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../predefined-styles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Predefined Styles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multi-language/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Multi-Language
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    ManiaCodes
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    ManiaCodes
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#registering-a-maniacode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Registering a ManiaCode
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      Syntax
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Syntax">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Elements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#show_message" class="md-nav__link">
+    <span class="md-ellipsis">
+      show_message
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install_track" class="md-nav__link">
+    <span class="md-ellipsis">
+      install_track
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#play_track" class="md-nav__link">
+    <span class="md-ellipsis">
+      play_track
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install_replay" class="md-nav__link">
+    <span class="md-ellipsis">
+      install_replay
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#view_replay" class="md-nav__link">
+    <span class="md-ellipsis">
+      view_replay
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#play_replay" class="md-nav__link">
+    <span class="md-ellipsis">
+      play_replay
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#join_server" class="md-nav__link">
+    <span class="md-ellipsis">
+      join_server
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install_skin" class="md-nav__link">
+    <span class="md-ellipsis">
+      install_skin
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="install_skin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#skin-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skin types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#car-skin-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Car skin types
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get_skin" class="md-nav__link">
+    <span class="md-ellipsis">
+      get_skin
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add_buddy" class="md-nav__link">
+    <span class="md-ellipsis">
+      add_buddy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add_favourite" class="md-nav__link">
+    <span class="md-ellipsis">
+      add_favourite
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#goto" class="md-nav__link">
+    <span class="md-ellipsis">
+      goto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install_track_pack" class="md-nav__link">
+    <span class="md-ellipsis">
+      install_track_pack
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../known-issues/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Known issues
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Elements
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Elements
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/manialink/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;manialink&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/quad/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;quad&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/frame/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;frame&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/label/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;label&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;format&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/audio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;audio&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/music/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;music&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/video/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;video&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/entry/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;entry&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/fileentry/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;fileentry&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/dico/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;dico&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/language/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;language&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/include/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;include&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/redirect/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;redirect&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/timeout/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    &lt;timeout&gt;
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#registering-a-maniacode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Registering a ManiaCode
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      Syntax
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Syntax">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Elements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#show_message" class="md-nav__link">
+    <span class="md-ellipsis">
+      show_message
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install_track" class="md-nav__link">
+    <span class="md-ellipsis">
+      install_track
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#play_track" class="md-nav__link">
+    <span class="md-ellipsis">
+      play_track
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install_replay" class="md-nav__link">
+    <span class="md-ellipsis">
+      install_replay
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#view_replay" class="md-nav__link">
+    <span class="md-ellipsis">
+      view_replay
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#play_replay" class="md-nav__link">
+    <span class="md-ellipsis">
+      play_replay
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#join_server" class="md-nav__link">
+    <span class="md-ellipsis">
+      join_server
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install_skin" class="md-nav__link">
+    <span class="md-ellipsis">
+      install_skin
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="install_skin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#skin-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skin types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#car-skin-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Car skin types
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get_skin" class="md-nav__link">
+    <span class="md-ellipsis">
+      get_skin
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add_buddy" class="md-nav__link">
+    <span class="md-ellipsis">
+      add_buddy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add_favourite" class="md-nav__link">
+    <span class="md-ellipsis">
+      add_favourite
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#goto" class="md-nav__link">
+    <span class="md-ellipsis">
+      goto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install_track_pack" class="md-nav__link">
+    <span class="md-ellipsis">
+      install_track_pack
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="maniacodes">ManiaCodes<a class="headerlink" href="#maniacodes" title="Permanent link">&para;</a></h1>
+<p>ManiaCodes are small XML files containing links to ressources such as Tracks, Replays or Skins. They are generally used to give players the option to download Avatars, Horns or Skins through a <a href="../../#what-is-a-manialink">ManiaLink</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>To create and access ManiaCodes, you must own a Trackmania United Forever account. Trackmania Nations Forever accounts have no access to ManiaCodes.</p>
+</div>
+<h2 id="registering-a-maniacode">Registering a ManiaCode<a class="headerlink" href="#registering-a-maniacode" title="Permanent link">&para;</a></h2>
+<p>As with ManiaLinks, ManiaCodes must be created through the Trackmania player page. Please visit the <a href="../../setup/link-setup/">Link Setup</a> guide for more information.</p>
+<h2 id="syntax">Syntax<a class="headerlink" href="#syntax" title="Permanent link">&para;</a></h2>
+<p>A ManiaCode, much like a ManiaLink, is an XML file. Unline ManiaLinks, the root element is not <a href="../../elements/manialink/">&lt;manialink&gt;</a> but <code>&lt;maniacode&gt;</code>. There are special ManiaCodes elements that can be combined as children of the root element.</p>
+<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf-8&#39; ?&gt;</span>
+<span class="nt">&lt;maniacode&gt;</span>
+<span class="w">    </span><span class="cm">&lt;!-- Content --&gt;</span>
+<span class="nt">&lt;/maniacode&gt;</span>
+</code></pre></div>
+<h2 id="elements">Elements<a class="headerlink" href="#elements" title="Permanent link">&para;</a></h2>
+<h3 id="show_message"><code>show_message</code><a class="headerlink" href="#show_message" title="Permanent link">&para;</a></h3>
+<p>This message will be displayed as a dialog after the ManiaCode finished running. If not specified, the game will display <code>Maniacode completed</code> instead.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;show_message&gt;</span>
+<span class="w">    </span><span class="nt">&lt;message&gt;</span>Thank<span class="w"> </span>you!<span class="nt">&lt;/message&gt;</span>
+<span class="nt">&lt;/show_message&gt;</span>
+</code></pre></div>
+<h3 id="install_track"><code>install_track</code><a class="headerlink" href="#install_track" title="Permanent link">&para;</a></h3>
+<p>This element, lets a player permanently install a track. The <code>name</code> element is used to define a filename after download. It will always be suffixed by <code>.Challenge.Gbx</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;install_track&gt;</span>
+<span class="w">    </span><span class="nt">&lt;name&gt;</span>TrackDavid<span class="nt">&lt;/name&gt;</span>
+<span class="w">    </span><span class="nt">&lt;url&gt;</span>http://data.trackmaniaunited.com/tracks/TrackDavid.Challenge.Gbx<span class="nt">&lt;/url&gt;</span>
+<span class="nt">&lt;/install_track&gt;</span>
+</code></pre></div>
+<h3 id="play_track"><code>play_track</code><a class="headerlink" href="#play_track" title="Permanent link">&para;</a></h3>
+<p>This element lets a player play a track. The syntax is similar to <code>install_track</code> but it does not permanently download the track. After leaving the track, the game will remove it.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;play_track&gt;</span>
+<span class="w">    </span><span class="nt">&lt;name&gt;</span>TrackDavid<span class="nt">&lt;/name&gt;</span>
+<span class="w">    </span><span class="nt">&lt;url&gt;</span>http://data.trackmaniaunited.com/tracks/TrackDavid.Challenge.Gbx<span class="nt">&lt;/url&gt;</span>
+<span class="nt">&lt;/play_track&gt;</span>
+</code></pre></div>
+<h3 id="install_replay"><code>install_replay</code><a class="headerlink" href="#install_replay" title="Permanent link">&para;</a></h3>
+<p>This element lets a player permanently download ghost data from a replay. As with tracks, the <code>name</code> attribute is used to rename the downloaded file and suffixed by <code>.Replay.Gbx</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;install_replay&gt;</span>
+<span class="w">    </span><span class="nt">&lt;name&gt;</span>ReplayDavid<span class="nt">&lt;/name&gt;</span>
+<span class="w">    </span><span class="nt">&lt;url&gt;</span>http://data.trackmaniaunited.com/replays/ReplayDavid.Replay.Gbx<span class="nt">&lt;/url&gt;</span>
+<span class="nt">&lt;/install_replay&gt;</span>
+</code></pre></div>
+<h3 id="view_replay"><code>view_replay</code><a class="headerlink" href="#view_replay" title="Permanent link">&para;</a></h3>
+<p>This element lets a player see a replay. As with <code>play_track</code>, the downloaded data is immediately loaded and not permanently stored. After leaving the replay viewer, the replay will be removed.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;view_replay&gt;</span>
+<span class="w">    </span><span class="nt">&lt;name&gt;</span>ReplayDavid<span class="nt">&lt;/name&gt;</span>
+<span class="w">    </span><span class="nt">&lt;url&gt;</span>http://data.trackmaniaunited.com/replays/ReplayDavid.Replay.Gbx<span class="nt">&lt;/url&gt;</span>
+<span class="nt">&lt;/view_replay&gt;</span>
+</code></pre></div>
+<h3 id="play_replay"><code>play_replay</code><a class="headerlink" href="#play_replay" title="Permanent link">&para;</a></h3>
+<p>This element lets a player play against the ghost of a replay. As with <code>play_replay</code>, the downloaded data is immediately loaded and not permanently stored. Afterwards, the replay will be removed.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;play_replay&gt;</span>
+<span class="w">    </span><span class="nt">&lt;name&gt;</span>ReplayDavid<span class="nt">&lt;/name&gt;</span>
+<span class="w">    </span><span class="nt">&lt;url&gt;</span>http://data.trackmaniaunited.com/replays/ReplayDavid.Replay.Gbx<span class="nt">&lt;/url&gt;</span>
+<span class="nt">&lt;/play_replay&gt;</span>
+</code></pre></div>
+<h3 id="join_server"><code>join_server</code><a class="headerlink" href="#join_server" title="Permanent link">&para;</a></h3>
+<p>This element lets a player join a server. The destination can either be the direct IP or a registered login name.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;join_server&gt;</span>
+<span class="w">    </span><span class="nt">&lt;ip&gt;</span>213.186.41.190:30000<span class="nt">&lt;/ip&gt;</span>
+<span class="nt">&lt;/join_server&gt;</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;join_server&gt;</span>
+<span class="w">    </span><span class="nt">&lt;login&gt;</span>my_server<span class="nt">&lt;/login&gt;</span>
+<span class="nt">&lt;/join_server&gt;</span>
+</code></pre></div>
+<h3 id="install_skin"><code>install_skin</code><a class="headerlink" href="#install_skin" title="Permanent link">&para;</a></h3>
+<p>This element lets a player download a car skin. After the download finishes, the player is asked if they want to apply the skin. The <code>name</code> element is used for the download modal, while <code>file</code> defines the file destination and <code>url</code> defines the file origin. The <code>file</code> element defines the type of skin (Example: <code>Skins/Vehicles/SportCar</code> is a skin for the car used in the <code>Island</code> environment)</p>
+<h4 id="skin-types">Skin types<a class="headerlink" href="#skin-types" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Skins/Vehicles/</code></td>
+<td>Cars</td>
+</tr>
+<tr>
+<td><code>Skins/Horns/</code></td>
+<td>Horns</td>
+</tr>
+<tr>
+<td><code>Skins/Avatars/</code></td>
+<td>Avatars</td>
+</tr>
+<tr>
+<td><code>ChallengeMusics/</code></td>
+<td>Music (<code>.ogg</code> or <code>.mux</code>)</td>
+</tr>
+<tr>
+<td><code>Skins/CarEngines</code></td>
+<td>Engine Sounds</td>
+</tr>
+</tbody>
+</table>
+<h4 id="car-skin-types">Car skin types<a class="headerlink" href="#car-skin-types" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Environment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CarCommon</td>
+<td>Any</td>
+</tr>
+<tr>
+<td>AmericanCar</td>
+<td>Desert</td>
+</tr>
+<tr>
+<td>RallyCar</td>
+<td>Rally</td>
+</tr>
+<tr>
+<td>SnowCar</td>
+<td>Snow</td>
+</tr>
+<tr>
+<td>SportsCar</td>
+<td>Island</td>
+</tr>
+<tr>
+<td>CoastCar</td>
+<td>Coast</td>
+</tr>
+<tr>
+<td>BayCar</td>
+<td>Bay</td>
+</tr>
+<tr>
+<td>StadiumCar</td>
+<td>Stadium</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Locators for skins are generated automatically. You should not add them to your ManiaCode.</p>
+</div>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;install_skin&gt;</span>
+<span class="w">    </span><span class="nt">&lt;name&gt;</span>TestDavid<span class="nt">&lt;/name&gt;</span>
+<span class="w">    </span><span class="nt">&lt;file&gt;</span>Skins/Vehicles/SportCar/TestDavid.zip<span class="nt">&lt;/file&gt;</span>
+<span class="w">    </span><span class="nt">&lt;url&gt;</span>http://data.trackmaniaunited.com/vehicles/TestDavid.zip<span class="nt">&lt;/url&gt;</span>
+<span class="nt">&lt;/install_skin&gt;</span>
+</code></pre></div>
+<h3 id="get_skin"><code>get_skin</code><a class="headerlink" href="#get_skin" title="Permanent link">&para;</a></h3>
+<p>This element is used to load a replays custom car into the cache of the game so it can be displayed in a replay.
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;get_skin&gt;</span>
+<span class="w">    </span><span class="nt">&lt;name&gt;</span>TestDavid<span class="nt">&lt;/name&gt;</span>
+<span class="w">    </span><span class="nt">&lt;file&gt;</span>Skins/Vehicles/CarCommon/TestDavid.zip<span class="nt">&lt;/file&gt;</span>
+<span class="w">    </span><span class="nt">&lt;url&gt;</span>http://data.trackmaniaunited.com/vehicles/TestDavid.zip<span class="nt">&lt;/url&gt;</span>
+<span class="nt">&lt;/get_skin&gt;</span>
+</code></pre></div></p>
+<h3 id="add_buddy"><code>add_buddy</code><a class="headerlink" href="#add_buddy" title="Permanent link">&para;</a></h3>
+<p>This element lets a player add another player as a friend (through the Buddy List system).</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;add_buddy&gt;</span>
+<span class="w">    </span><span class="nt">&lt;login&gt;</span>tmuffan<span class="nt">&lt;/login&gt;</span>
+<span class="nt">&lt;/add_buddy&gt;</span>
+</code></pre></div>
+<h3 id="add_favourite"><code>add_favourite</code><a class="headerlink" href="#add_favourite" title="Permanent link">&para;</a></h3>
+<p>This element lets a player add a server as their favorite. You can either specify the direct IP or a registered login name.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;add_favourite&gt;</span>
+<span class="w">    </span><span class="nt">&lt;ip&gt;</span>213.186.41.190:30000<span class="nt">&lt;/ip&gt;</span>
+<span class="nt">&lt;/add_favourite&gt;</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;add_favourite&gt;</span>
+<span class="w">    </span><span class="nt">&lt;login&gt;</span>my_server<span class="nt">&lt;/login&gt;</span>
+<span class="nt">&lt;/add_favourite&gt;</span>
+</code></pre></div>
+<h3 id="goto"><code>goto</code><a class="headerlink" href="#goto" title="Permanent link">&para;</a></h3>
+<p>This element is used to redirect the player to a ManiaLink. It is frequently used to add "donation" features to a ManiaLink.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;goto&gt;</span>
+<span class="w">    </span><span class="nt">&lt;link&gt;</span>MyManiaLink<span class="nt">&lt;/link&gt;</span>
+<span class="nt">&lt;/goto&gt;</span>
+</code></pre></div>
+<h3 id="install_track_pack"><code>install_track_pack</code><a class="headerlink" href="#install_track_pack" title="Permanent link">&para;</a></h3>
+<p>This element lets the player install a group of tracks as a combined folder. The downloaded pack will be available under <code>/Tracks/Challenges/Downloaded/ManiaLink/</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;install_track_pack&gt;</span>
+<span class="w">    </span><span class="nt">&lt;name&gt;</span>Testfolder<span class="nt">&lt;/name&gt;</span>
+<span class="w">    </span><span class="nt">&lt;track&gt;</span>
+<span class="w">        </span><span class="nt">&lt;name&gt;</span>Trackname1<span class="nt">&lt;/name&gt;</span>
+<span class="w">        </span><span class="nt">&lt;url&gt;</span>http://www.yourdomain.com/Tracks/Test.Challenge.Gbx<span class="nt">&lt;/url&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/track&gt;</span>
+<span class="w">    </span><span class="nt">&lt;track&gt;</span>
+<span class="w">        </span><span class="nt">&lt;name&gt;</span>Trackname2<span class="nt">&lt;/name&gt;</span>
+<span class="w">        </span><span class="nt">&lt;url&gt;</span>http://www.yourdomain.com/Tracks/Test2.Challenge.Gbx<span class="nt">&lt;/url&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/track&gt;</span>
+<span class="nt">&lt;/install_track_pack&gt;</span>
+</code></pre></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.path", "navigation.sections", "navigation.tracking", "navigation.top", "toc.follow"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
