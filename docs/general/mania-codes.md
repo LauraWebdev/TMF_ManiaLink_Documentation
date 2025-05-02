@@ -18,6 +18,14 @@ A ManiaCode, much like a ManiaLink, is an XML file. Unline ManiaLinks, the root 
 </maniacode>
 ```
 
+### `noconfirmation="1|0"`
+
+This attribute controls if a `Maniacode completed` message is displayed after the ManiaCode runs. A value of `1` disables the message; a value of `0` uses the default behavior of displaying the message.
+
+```xml
+<maniacode noconfirmation="1">
+```
+
 ## Elements
 ### ``show_message``
 This message will be displayed as a dialog after the ManiaCode finished running. If not specified, the game will display `Maniacode completed` instead.
